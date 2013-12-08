@@ -18,11 +18,26 @@
   <script type="text/javascript" src="jquery.interactive_3d.js"></script>
   <style>
 #i3d img{width:100px;}
+.logo img {float: left;}
+.stage {
+position: absolute;
+top: 118px;
+left: 14px;
+}
+#i3d {
+    position: relative;
+    right: 37px;
+top: 13px;
+}
+.f {
+    position: relative;
+    right: 72px;
+}
 	</style>
 	<script>
 	  $(document).ready( function() {
 	    $("#i3d").interactive_3d({
-	      frames: 24,
+	      frames: 25,
         autoPlay: 50
 	    });
 	  });
@@ -31,11 +46,13 @@
 </head>
 <body>
 
-          <div id="i3d" class="interactive_3d">
-
-
-
-            <img src="images/frame_1.png">
+          <div class="logo">
+          	<img src="images/l.png" class="l">
+          	<img src="images/stage.png" class="stage" >
+          	<div id="i3d" class="interactive_3d">
+          	  <img src="images/frames/frame_1.png">
+          	</div>
+          	<img src="images/fmedical.png" class="f">
           </div>
 
       </body>
