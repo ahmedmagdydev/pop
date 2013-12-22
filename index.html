@@ -11,17 +11,7 @@
   <style>
 
 	</style>
-	<script>
-	  $(document).ready( function() {
 
-	    $("#i3d").interactive_3d({
-	      frames: 25,
-        autoPlay: 50
-	    });
-       $(".Center-Container").show();
-	  });
-
-	</script>
 </head>
 <body>
 <div class="Center-Container" style="display:none">
@@ -43,5 +33,16 @@
   <a href="mailto:info@lm-lifemedical.com">info@lm-lifemedical.com</a>
 </p>
 </div>
+<script>
+    $(document).ready( function() {
+
+      $("#i3d").interactive_3d({
+        frames: 25,
+        autoPlay: 50
+      });
+       $(".Center-Container").show();
+    });
+
+  </script>
       </body>
 </html>
