@@ -20,30 +20,29 @@ display: table;
 
 margin: 0 auto;
 position: relative;}
-.lifemedical{
-	width: 175px;
-}
 
-.logo img {float: left;height: 50px;}
+
+.logo img {float: left;height: 100px;}
 
 .dance {
     position: relative;
 
 }
-.dance img{position: absolute;top: -4px;
-left: -6px;}
+.dance img{position: absolute;top: -8px;
+left: -13px;
+}
 .Center-Container{
 position: absolute;
 top: 50%;
 left: 50%;
-width: 320px;
-height: 160px;
-margin-top: -80px;
-margin-left: -160px;
+width: 630px;
+height: 280px;
+margin-top: -140px;
+margin-left: -315px;
 }
 .slogan{
 margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 26px;
   font-family: "Myriad Pro";
   color: rgb( 0, 176, 80 );
   text-transform: uppercase;
@@ -54,7 +53,7 @@ margin-bottom: 20px;
 
 }
 .words {
-  font-size: 17.25px;
+  font-size: 33px;
   font-family: "Myriad Pro";
   color: rgb( 255, 255, 255 );
   text-transform: uppercase;
@@ -66,7 +65,7 @@ margin: 10px 0;
 
 }
 a {
-  font-size: 10px;
+  font-size: 20px;
   font-family: "Myriad Pro";
   color: rgb( 184, 187, 139 );
   text-decoration: underline;
