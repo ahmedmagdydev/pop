@@ -1,0 +1,79 @@
+ p{
+clear: both;
+text-align: center;
+margin: 0;
+  -webkit-text-shadow: 1px 1px 3px #353335;
+  -moz-text-shadow: 1px 1px 3px #353335;
+  -ms-text-shadow: 1px 1px 3px #353335;
+  -o-text-shadow: 1px 1px 3px #353335;
+  text-shadow: 1px 1px 3px #353335;
+}
+html {
+  background: url(images/bg.jpg) no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo{clear: both;
+display: table;
+
+margin: 0 auto;
+position: relative;}
+.lifemedical{
+	width: 175px;
+}
+
+.logo img {float: left;height: 50px;}
+
+.dance {
+    position: relative;
+
+}
+.dance img{position: absolute;top: -4px;
+left: -6px;}
+.Center-Container{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 320px;
+height: 160px;
+margin-top: -80px;
+margin-left: -160px;
+}
+.slogan{
+margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 0, 176, 80 );
+  text-transform: uppercase;
+  -moz-transform: scale(1, 0.97);
+  -webkit-transform: scale(1, 0.97);
+  -ms-transform: scale(1, 0.97);
+
+
+}
+.words {
+  font-size: 17.25px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+  text-transform: uppercase;
+margin: 10px 0;
+  text-align: center;
+  -moz-transform: scale(1, 0.97);
+  -webkit-transform: scale(1, 0.97);
+  -ms-transform: scale(1, 0.97);
+
+}
+a {
+  font-size: 10px;
+  font-family: "Myriad Pro";
+  color: rgb( 184, 187, 139 );
+  text-decoration: underline;
+
+  text-align: center;
+  -moz-transform: scale(1, 0.97);
+  -webkit-transform: scale(1, 0.97);
+  -ms-transform: scale(1, 0.97);
+
+}
